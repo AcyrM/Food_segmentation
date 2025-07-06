@@ -1,0 +1,139 @@
+is is not a failure, but may mean that there could be performance gains if more memory were available.
+901/901 [==============================] - 182s 186ms/step - loss: 0.6393 - mean_iou: 0.2043 - val_loss: 1.2758 - val_mean_iou: 0.1272
+Epoch 2/3
+901/901 [==============================] - 170s 189ms/step - loss: 0.4787 - mean_iou: 0.2843 - val_loss: 1.3556 - val_mean_iou: 0.1600
+Epoch 3/3
+901/901 [==============================] - 169s 188ms/step - loss: 0.4019 - mean_iou: 0.3549 - val_loss: 1.2784 - val_mean_iou: 0.2018
+Unfreezing all layers for fine-tuning...
+Epoch 4/50
+901/901 [==============================] - 182s 189ms/step - loss: 0.4225 - mean_iou: 0.3479 - val_loss: 1.1277 - val_mean_iou: 0.1770
+Epoch 5/50
+901/901 [==============================] - 169s 188ms/step - loss: 0.3558 - mean_iou: 0.3873 - val_loss: 1.3120 - val_mean_iou: 0.1802
+Epoch 6/50
+901/901 [==============================] - 169s 187ms/step - loss: 0.3110 - mean_iou: 0.4206 - val_loss: 1.3553 - val_mean_iou: 0.2102
+Epoch 7/50
+901/901 [==============================] - 168s 186ms/step - loss: 0.3036 - mean_iou: 0.4062 - val_loss: 1.3172 - val_mean_iou: 0.2709
+
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.0010000000474974513.
+Epoch 8/50
+901/901 [==============================] - 168s 186ms/step - loss: 0.3190 - mean_iou: 0.4125 - val_loss: 1.1900 - val_mean_iou: 0.3314
+Epoch 9/50
+901/901 [==============================] - 168s 186ms/step - loss: 0.2927 - mean_iou: 0.4474 - val_loss: 1.1395 - val_mean_iou: 0.3405
+Epoch 10/50
+901/901 [==============================] - 168s 187ms/step - loss: 0.2753 - mean_iou: 0.4651 - val_loss: 1.1749 - val_mean_iou: 0.3319
+
+Epoch 00010: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+Epoch 11/50
+901/901 [==============================] - 168s 186ms/step - loss: 0.2935 - mean_iou: 0.4490 - val_loss: 1.0107 - val_mean_iou: 0.3385
+Epoch 12/50
+901/901 [==============================] - 170s 188ms/step - loss: 0.2711 - mean_iou: 0.4750 - val_loss: 1.1736 - val_mean_iou: 0.3522
+Epoch 13/50
+901/901 [==============================] - 169s 187ms/step - loss: 0.2627 - mean_iou: 0.4647 - val_loss: 0.9907 - val_mean_iou: 0.3586
+Epoch 14/50
+901/901 [==============================] - 169s 188ms/step - loss: 0.2631 - mean_iou: 0.4780 - val_loss: 1.0732 - val_mean_iou: 0.3212
+Epoch 15/50
+901/901 [==============================] - 169s 188ms/step - loss: 0.2406 - mean_iou: 0.4888 - val_loss: 1.1797 - val_mean_iou: 0.3038
+Epoch 16/50
+901/901 [==============================] - 158s 176ms/step - loss: 0.2469 - mean_iou: 0.4922 - val_loss: 1.1145 - val_mean_iou: 0.3640
+
+Epoch 00016: ReduceLROnPlateau reducing learning rate to 0.0002500000118743628.
+Epoch 17/50
+901/901 [==============================] - 157s 174ms/step - loss: 0.2728 - mean_iou: 0.4992 - val_loss: 1.0709 - val_mean_iou: 0.3079
+Epoch 18/50
+901/901 [==============================] - 157s 174ms/step - loss: 0.2618 - mean_iou: 0.4902 - val_loss: 1.0976 - val_mean_iou: 0.2996
+Epoch 19/50
+901/901 [==============================] - 157s 174ms/step - loss: 0.2661 - mean_iou: 0.4900 - val_loss: 1.0000 - val_mean_iou: 0.3257
+
+Epoch 00019: ReduceLROnPlateau reducing learning rate to 0.0001250000059371814.
+Epoch 20/50
+901/901 [==============================] - 157s 174ms/step - loss: 0.2952 - mean_iou: 0.4794 - val_loss: 0.8990 - val_mean_iou: 0.3247
+Epoch 21/50
+901/901 [==============================] - 157s 174ms/step - loss: 0.2843 - mean_iou: 0.4826 - val_loss: 0.8619 - val_mean_iou: 0.3421
+Epoch 22/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2750 - mean_iou: 0.4963 - val_loss: 0.7268 - val_mean_iou: 0.3711
+Epoch 23/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2716 - mean_iou: 0.5046 - val_loss: 0.5762 - val_mean_iou: 0.4282
+Epoch 24/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2663 - mean_iou: 0.5061 - val_loss: 0.6235 - val_mean_iou: 0.4373
+Epoch 25/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2616 - mean_iou: 0.5105 - val_loss: 0.6653 - val_mean_iou: 0.4267
+Epoch 26/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2511 - mean_iou: 0.5216 - val_loss: 0.7413 - val_mean_iou: 0.4384
+
+Epoch 00026: ReduceLROnPlateau reducing learning rate to 6.25000029685907e-05.
+Epoch 27/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2628 - mean_iou: 0.5179 - val_loss: 0.6643 - val_mean_iou: 0.4919
+Epoch 28/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2668 - mean_iou: 0.5166 - val_loss: 0.5165 - val_mean_iou: 0.5352
+Epoch 29/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2592 - mean_iou: 0.5211 - val_loss: 0.5754 - val_mean_iou: 0.5257
+Epoch 30/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2609 - mean_iou: 0.5239 - val_loss: 0.5674 - val_mean_iou: 0.5206
+Epoch 31/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2552 - mean_iou: 0.5187 - val_loss: 0.5559 - val_mean_iou: 0.5340
+
+Epoch 00031: ReduceLROnPlateau reducing learning rate to 3.125000148429535e-05.
+Epoch 32/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2710 - mean_iou: 0.5155 - val_loss: 0.4478 - val_mean_iou: 0.5659
+Epoch 33/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2668 - mean_iou: 0.5222 - val_loss: 0.4460 - val_mean_iou: 0.5561
+Epoch 34/50
+901/901 [==============================] - 157s 174ms/step - loss: 0.2654 - mean_iou: 0.5189 - val_loss: 0.4358 - val_mean_iou: 0.5546
+Epoch 35/50
+901/901 [==============================] - 158s 175ms/step - loss: 0.2551 - mean_iou: 0.5290 - val_loss: 0.4487 - val_mean_iou: 0.5546
+Epoch 36/50
+901/901 [==============================] - 166s 185ms/step - loss: 0.2528 - mean_iou: 0.5240 - val_loss: 0.4398 - val_mean_iou: 0.5607
+Epoch 37/50
+901/901 [==============================] - 165s 183ms/step - loss: 0.2440 - mean_iou: 0.5271 - val_loss: 0.4814 - val_mean_iou: 0.5328
+
+Epoch 00037: ReduceLROnPlateau reducing learning rate to 1.5625000742147677e-05.
+Epoch 38/50
+901/901 [==============================] - 166s 184ms/step - loss: 0.2591 - mean_iou: 0.5172 - val_loss: 0.4128 - val_mean_iou: 0.5740
+Epoch 39/50
+901/901 [==============================] - 171s 190ms/step - loss: 0.2565 - mean_iou: 0.5138 - val_loss: 0.3983 - val_mean_iou: 0.5865
+Epoch 40/50
+901/901 [==============================] - 164s 182ms/step - loss: 0.2489 - mean_iou: 0.5208 - val_loss: 0.4138 - val_mean_iou: 0.5909
+Epoch 41/50
+901/901 [==============================] - 165s 183ms/step - loss: 0.2498 - mean_iou: 0.5284 - val_loss: 0.4156 - val_mean_iou: 0.5929
+Epoch 42/50
+901/901 [==============================] - 164s 182ms/step - loss: 0.2480 - mean_iou: 0.5364 - val_loss: 0.4142 - val_mean_iou: 0.5903
+
+Epoch 00042: ReduceLROnPlateau reducing learning rate to 7.812500371073838e-06.
+Epoch 43/50
+901/901 [==============================] - 159s 177ms/step - loss: 0.2464 - mean_iou: 0.5349 - val_loss: 0.3958 - val_mean_iou: 0.5974
+Epoch 44/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2491 - mean_iou: 0.5233 - val_loss: 0.4016 - val_mean_iou: 0.5962
+Epoch 45/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2449 - mean_iou: 0.5381 - val_loss: 0.3947 - val_mean_iou: 0.6007
+Epoch 46/50
+901/901 [==============================] - 156s 173ms/step - loss: 0.2375 - mean_iou: 0.5394 - val_loss: 0.3916 - val_mean_iou: 0.6031
+Epoch 47/50
+901/901 [==============================] - 155s 172ms/step - loss: 0.2437 - mean_iou: 0.5360 - val_loss: 0.3969 - val_mean_iou: 0.6029
+Epoch 48/50
+901/901 [==============================] - 155s 172ms/step - loss: 0.2371 - mean_iou: 0.5349 - val_loss: 0.3930 - val_mean_iou: 0.6037
+Epoch 49/50
+901/901 [==============================] - 155s 172ms/step - loss: 0.2442 - mean_iou: 0.5344 - val_loss: 0.4006 - val_mean_iou: 0.6003
+
+Epoch 00049: ReduceLROnPlateau reducing learning rate to 3.906250185536919e-06.
+Epoch 50/50
+901/901 [==============================] - 155s 172ms/step - loss: 0.2417 - mean_iou: 0.5389 - val_loss: 0.3914 - val_mean_iou: 0.6058
+C:\Users\acyrm\anaconda3\envs\ComputerVision-GPU\lib\site-packages\keras\utils\generic_utils.py:497: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  category=CustomMaskWarning)
+Class  0 IoU: 0.969
+Class  1 IoU: 0.932
+Class  2 IoU: 0.847
+Class  3 IoU: 0.351
+Class  4 IoU: 0.000
+Class  5 IoU: 0.810
+Class  6 IoU: 0.219
+Class  7 IoU: 0.445
+Class  8 IoU: 0.786
+Class  9 IoU: 0.689
+Class 10 IoU: 0.522
+Class 11 IoU: 0.471
+Class 12 IoU: 0.219
+Class 13 IoU: 0.564
+Class 14 IoU: 0.845
+Class 15 IoU: 0.724
+Class 16 IoU: 0.783
+Class 17 IoU: 0.728
